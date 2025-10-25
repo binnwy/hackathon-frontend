@@ -190,8 +190,8 @@ const ResultModal = ({ predictionResult, onClose, onDownloadCsv, csvFile }) => {
   );
 };
 
-const API_BASE_URL = 'http://127.0.0.1:5000';
 
+const API_BASE_URL = 'https://web-production-cfc8.up.railway.app';
 export default function Dashboard() {
   const inputRefs = useRef([]);
   const [manualInputs, setManualInputs] = useState(Array(14).fill(''));
